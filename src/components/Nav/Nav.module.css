@@ -1,0 +1,49 @@
+.nav_block {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    /* gap: 50px; */
+    padding-top: 50px;
+   cursor: pointer;
+    }
+    .nav_menu {
+         
+          display: flex;
+          flex-direction: row;
+          width: 700px;
+        
+    justify-content: space-between;
+    padding-right: 100px;
+    font-family: 'Alike';
+    font-weight:  600;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    
+          }
+    
+    .nav_menu a {
+        text-decoration: none;
+        color: 	black;
+    }
+    .nav_logo img {
+        position: relative;
+        bottom: 75px;
+        height: 200px;
+        width: 200px;
+      
+    }
+    .icon_plus{
+        width: 50px;
+        height: 50px;
+        font-size: 40px;
+        display: none;
+        cursor: pointer;
+    }
+    

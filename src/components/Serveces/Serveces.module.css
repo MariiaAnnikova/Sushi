@@ -1,0 +1,81 @@
+.serveces_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-weight: 500;
+    font-size: 48px;
+    font-family: 'Alike';
+    color: black;
+}
+
+.line{
+   
+    font-size: 80px;
+    font-family:  "Alike";
+    font-weight: 200;
+    color: #b08334;
+ 
+}
+
+
+.services_icon img{
+    height: 100px;
+    width: 100px;
+}
+
+.services_icon{
+
+    width: 1000px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ gap: 150px;
+ margin-top: 100px;
+ margin-left: 270px;
+ 
+}
+
+
+ .serveces_title{
+ 
+    margin-top: 100px;
+    margin-left: 250px;  
+ display: flex;
+ flex-direction: row;
+
+ gap: 100px;
+ }
+
+ .serveces_title p{
+   
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Alike';
+    color:#000000;
+   width: 200px;
+ }
+
+ .title_events{
+   font-family: "Alike";
+   font-size: 25px;
+
+   color: #b08334;
+   height: 800px;
+   margin-top: 100px;
+ 
+    position: relative;
+}
+.event_logo{
+    width: 100%;
+    padding-top: 100px;
+/* position: absolute; */
+margin-left: 550px;
+    top:-70px;
+    font-size: 60px;
+    font-family:  "Alike";
+    font-weight: 200;
+    color: #b08334;
+  
+}
+

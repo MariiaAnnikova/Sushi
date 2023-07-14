@@ -1,0 +1,27 @@
+.container_contacts {
+    margin-top: 100px;
+    margin-left: 180px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-items: center;
+ 
+}
+
+.contact {
+    font-size: 25px;
+}
+
+.icon {
+     font-size: 30px;
+     margin: 10px;
+     color: rgb(250, 128, 114);
+}
+
+.contacts_header{
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 400px;
+    margin-top: 150px;
+}

@@ -1,0 +1,41 @@
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {transform: translateX(-100%);}
+}
+.pic_carousel
+{
+    overflow: hidden;
+
+}
+.slider{
+  
+    white-space: nowrap;
+    animation: 20s slide infinite linear;
+  
+}
+.slider img { 
+
+    height: 700px;
+    width:700px;
+   margin-left: 30px;
+    object-fit: contain;
+
+}
+.border_pic img {
+    position: absolute;
+ height: 120px;
+ width: 1512px;
+top: 783px;
+}
+.border_pic_up img{
+    transform: rotate(180deg);
+    position: absolute;
+ height: 120px;
+ top:377px;
+ width: 1512px;
+ z-index: 1;
+
+}

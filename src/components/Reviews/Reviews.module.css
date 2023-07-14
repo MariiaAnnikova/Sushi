@@ -1,0 +1,35 @@
+.all_reviews{
+  
+    height: 300px;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+ 
+
+    gap: 40px;
+}
+
+.review{
+   border: 3px solid salmon;
+   border-radius: 19px;
+    width: 400px;
+  padding-top: 30px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: 'Alike';
+    color: salmon;
+    font-weight: 700;
+}
+
+.review_title {
+    line-height: 40px;
+    font-size: 25px;
+    font-family: 'Alike';
+    color: salmon;
+    font-weight: 700;
+}
+
+.review p {
+    color: rgb(100, 50, 45);
+}
