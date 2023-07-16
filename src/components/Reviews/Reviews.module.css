@@ -33,3 +33,44 @@
 .review p {
     color: rgb(100, 50, 45);
 }
+
+@media (max-width: 376px){
+    .all_reviews{
+        height: 400px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .review{
+       border: 2px solid salmon;
+       border-radius: 19px;
+        width: 350px;
+      padding-top: 5px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 18px;
+        font-family: 'Alike';
+        color: salmon;
+        font-weight: 700;
+        margin-left: 10px;
+        
+    }
+    
+    .review_title {
+        margin-bottom: 20px;
+        width: 350px;
+        line-height: 25px;
+        font-size: 20px;
+        font-family: 'Alike';
+        color: salmon;
+        font-weight: 700;
+    }
+    
+    .review p {
+        color: rgb(100, 50, 45);
+    }
+}

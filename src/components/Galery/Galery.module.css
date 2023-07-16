@@ -6,3 +6,15 @@
        margin-bottom: 50px;
 
 }
+
+@media (max-width: 376px) {
+    .photo_arr {
+
+
+        margin-top: 0px;
+        margin-left: 10px;
+           columns:1;
+           margin-bottom: 5px;
+    
+    }
+}

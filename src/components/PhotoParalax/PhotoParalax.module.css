@@ -40,3 +40,54 @@ header{
     transform: translateZ(-10px) scale(2);
   
 }
+
+@media (max-width: 376px){
+  .about_andrei_title{
+ 
+    height: 350px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 30px;
+  margin-top: 100px;
+   
+}
+.about_andrei_title p {
+    display: none;
+    font-family: 'Alike';
+    font-size: 15px;
+    font-weight: 500;
+    /* color: #b47404; */
+  color: rgb(11, 11, 11);
+}
+.wrapper{
+ 
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 20px;
+}
+
+header{
+
+ position: relative;
+ display: flex;
+
+ height: 100%;
+ transform-style: preserve-3d;
+ z-index: -1;
+}
+.photo_andrei{ 
+
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-10px) scale(2);
+  
+}
+
+
+}

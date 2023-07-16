@@ -56,26 +56,56 @@
    width: 200px;
  }
 
- .title_events{
-   font-family: "Alike";
-   font-size: 25px;
 
-   color: #b08334;
-   height: 800px;
-   margin-top: 100px;
- 
-    position: relative;
-}
-.event_logo{
-    width: 100%;
-    padding-top: 100px;
-/* position: absolute; */
-margin-left: 550px;
-    top:-70px;
-    font-size: 60px;
-    font-family:  "Alike";
-    font-weight: 200;
-    color: #b08334;
-  
-}
+@media (max-width: 376px){
 
+    .serveces_header{
+        display: flex;
+      width: 360px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-weight: 100;
+        font-size: 18px;
+        font-family: 'Alike';
+        color: black;
+        margin-top: -100px;
+    }
+    
+    .services_icon img{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .services_icon{
+    
+        width: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     gap: 30px;
+     margin-top: 10px;
+     margin-left: 30px;
+     
+    }
+    
+    
+     .serveces_title{
+   
+        margin-top: -230px;
+        margin-left: 100px;  
+     display: flex;
+     flex-direction: column;
+      gap: 22px;
+     }
+    
+     .serveces_title p{
+       
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Alike';
+        color:#000000;
+       width: 200px;
+     }
+
+}

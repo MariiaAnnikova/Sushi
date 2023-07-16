@@ -1,16 +1,16 @@
 import React from 'react'
 import s from "./Nav.module.css"
-
+import {PlusOutlined} from '@ant-design/icons'
 import Logo from '../../css/Logo.jpeg'
 import { Link } from 'react-scroll'
 
-export default function Nav() {
+export default function Nav({menuActive, setMenuActive}) {
   return (
     <div className={s.nav_block}>
 
 <div className={s.nav_logo}><img  src={Logo} alt="Logo" /></div> 
 
-<div className={s.nav_menu}>
+<div className={[s.nav_menu, menuActive ? s.active : ''].join(' ')}>
 <Link activeClass="active"
                  to="PhotoParalax" 
                  smooth={true} 
@@ -50,6 +50,7 @@ export default function Nav() {
         </Link>  
 
       </div>    
+      <PlusOutlined className={s.icon_plus} onClick={() => setMenuActive(menuActive ? false : true)}/>
     </div>
   )
 }

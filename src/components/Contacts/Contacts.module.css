@@ -25,3 +25,37 @@
     margin-left: 400px;
     margin-top: 150px;
 }
+
+@media (max-width: 376px){
+    .container_contacts {
+     
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        gap: 5px;
+        justify-items: center;
+     
+    }
+    
+    .contact {
+        font-size: 20px;
+    }
+    
+    .icon {
+         font-size: 20px;
+         margin: 10px;
+         color: rgb(250, 128, 114);
+    }
+    
+    .contacts_header{
+        width: 350px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}

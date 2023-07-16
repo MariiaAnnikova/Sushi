@@ -15,7 +15,6 @@ export default function Serveces() {
     <div className={s.services_icon}>
     <img src={phone_call} alt="sushi"/>
     <img src={done} alt="sushi"/>
-    {/* <img src={grocery_cart} alt='sushi' /> */}
     <img src={chef} alt="sushi"/>
     <img src={cleaning} alt="sushi"/>
     </div>
