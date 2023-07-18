@@ -43,14 +43,13 @@
     @media(max-width: 376px){
     .icon_plus{
         cursor: pointer;
-        width: 50px;
-        height: 50px;
-        font-size: 40px;
+        width: 60px;
+        height: 60px;
+        font-size: 50px;
         display: flex;
         cursor: pointer;
-     border:1px solid green;
-        margin-left: -600px;
-        margin-top: 30px;
+        margin-left: 300px;
+        margin-top: -23px;
     }
     
     
@@ -58,16 +57,16 @@
                  transform: translateY(0%);
                  display: flex;
                  flex-direction: column;
-           gap: 10px;
+           gap: 8px;
          padding-right: 0px;
            font-family: 'Alike';
            font-weight:  900;
-           font-size: 18px;
+           font-size: 15px;
            margin-top: 20px;
-           margin-left: 90px;
+           margin-right: 60px;
            cursor: pointer;
-         width: 375px;
-          
+         width: 100px;
+       
           }
               
              .nav_logo img {
@@ -79,7 +78,6 @@
              }
               
              .nav_block {
-                  
                      display: flex;
                      flex-direction: row;
                      justify-content: space-between;
@@ -90,7 +88,7 @@
                      width: 375px;
                    background-color: transparent;
                    position: sticky;
-                   border:1px solid fuchsia;
+                
                   
              }
           

@@ -28,13 +28,13 @@
     position: absolute;
  height: 120px;
  width: 1512px;
-top: 783px;
+top: 801px;
 }
 .border_pic_up img{
     transform: rotate(180deg);
     position: absolute;
  height: 120px;
- top:377px;
+ top:396px;
  width: 1512px;
  z-index: 1;
 
@@ -60,23 +60,24 @@ top: 783px;
     }
     .slider img { 
 
-        height: 400px;
-        width:375px;
-       margin-left: 10px;
+        height: 200px;
+        width:200px;
+       margin-left: 5px;
         object-fit: contain;
     
     }
     .border_pic img {
         position: absolute;
-     height: 80px;
+     height: 50px;
      width: 375px;
-    top: 580px;
+    top: 377px;
+   
     }
     .border_pic_up img{
         transform: rotate(180deg);
         position: absolute;
-     height: 80px;
-     top:360px;
+     height: 50px;
+     top:273px;
      width: 375px;
      z-index: 1;
     

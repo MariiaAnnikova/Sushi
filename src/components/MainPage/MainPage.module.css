@@ -51,7 +51,7 @@ flex-direction: column;
         flex-direction: row;
         justify-items: none;
         justify-content: none;
-        margin-top: 165px;
+        margin-top: 70px;
     }
     .phrase_title{
     display: flex;

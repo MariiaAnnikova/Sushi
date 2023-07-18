@@ -6,6 +6,7 @@ import { Link } from 'react-scroll'
 
 export default function Nav({menuActive, setMenuActive}) {
   return (
+    <div>
     <div className={s.nav_block}>
 
 <div className={s.nav_logo}><img  src={Logo} alt="Logo" /></div> 
@@ -50,7 +51,9 @@ export default function Nav({menuActive, setMenuActive}) {
         </Link>  
 
       </div>    
-      <PlusOutlined className={s.icon_plus} onClick={() => setMenuActive(menuActive ? false : true)}/>
+    
     </div>
+      <PlusOutlined className={s.icon_plus} onClick={() => setMenuActive(menuActive ? false : true)}/>
+      </div>
   )
 }
