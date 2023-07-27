@@ -50,6 +50,7 @@ top: 801px;
     .pic_carousel
     {
         overflow: hidden;
+  
     
     }
     .slider{
@@ -79,6 +80,51 @@ top: 801px;
      height: 50px;
      top:273px;
      width: 375px;
+     z-index: 1;
+    
+    
+    }
+}
+
+@media (min-width:377px) and (max-width: 420px){
+    @keyframes slide {
+        from {
+            transform: translateX(0);
+        }
+        to {transform: translateX(-100%);}
+    }
+    .pic_carousel
+    {
+        overflow: hidden;
+    
+    }
+    .slider{
+      
+        white-space: nowrap;
+        animation: 5s slide infinite linear;
+      
+    }
+    .slider img { 
+
+        height: 200px;
+        width:200px;
+       margin-left: 5px;
+        object-fit: contain;
+    
+    }
+    .border_pic img {
+        position: absolute;
+     height: 50px;
+     width: 419px;
+    top: 419px;
+   
+    }
+    .border_pic_up img{
+        transform: rotate(180deg);
+        position: absolute;
+     height: 50px;
+     top:273px;
+     width: 419px;
      z-index: 1;
     
     

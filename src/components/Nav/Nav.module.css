@@ -40,7 +40,71 @@
       
     }
 
-    @media(max-width: 376px){
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+
+    /* @media(max-width: 376px){ */
+    .icon_plus{
+        cursor: pointer;
+        width: 60px;
+        height: 60px;
+        font-size: 50px;
+        display: flex;
+        cursor: pointer;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    
+     .nav_menu.active {
+                 transform: translateY(0%);
+                 display: flex;
+                 flex-direction: column;
+           gap: 8px;
+         padding-right: 0px;
+           font-family: 'Alike';
+           font-weight:  900;
+           font-size: 15px;
+           margin-top: 20px;
+           margin-right: 100px;
+           cursor: pointer;
+         width: 100px;
+       
+          }
+              
+             .nav_logo img {
+                 margin: 80px 0px 0px 0px;
+                 height: 100px;
+                 width: 100px;
+     
+               
+             }
+              
+             .nav_block {
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: space-between;
+                     gap: 0px;
+                     margin: 0px 0px 0px 0px;
+                     height: 50px;
+                     padding: 0px;
+                     width: 375px;
+                   background-color: transparent;
+                   position: sticky;
+                
+                  
+             }
+          
+           .nav_menu {
+           
+     transform: translateY(-999%);
+    }
+}
+
+@media (min-width:377px) and (max-width: 420px){
+    
     .icon_plus{
         cursor: pointer;
         width: 60px;
@@ -85,7 +149,7 @@
                      margin: 0px 0px 0px 0px;
                      height: 50px;
                      padding: 0px;
-                     width: 375px;
+                     width: 420px;
                    background-color: transparent;
                    position: sticky;
                 

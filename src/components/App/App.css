@@ -17,8 +17,17 @@ body {
  min-height: 100vh;
 /* display: flex; */}
 
-@media (max-width:376px) {
+@media only screen 
+and (max-width: 376px) 
+ { 
     
 body {
-  width: 375px;}
+  max-width: 375px;}
 }
+
+@media (min-width:377px) and (max-width: 420px){
+    
+  body {
+    max-width: 419px;}
+  
+  }

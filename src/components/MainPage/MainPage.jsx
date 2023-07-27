@@ -28,10 +28,10 @@ export default function MainPage() {
    <Carousel />
 <center><h1 className={s.im_andrei}>Hello! I'm Andre Filon.</h1></center>
 <PhotoParalax />
-
-<Serveces />
-<Events />
 <Galery />
+{/* <Serveces /> */}
+<Events />
+
 <Contacts />
 <Reviews />
 

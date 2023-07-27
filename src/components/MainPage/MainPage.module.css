@@ -73,5 +73,36 @@ flex-direction: column;
         font-size: 28px;
         font-weight: 900; 
     }
-   
+  }
+
+  @media (min-width:377px) and (max-width: 420px){
+    .phrase_sushi{
+        width: 419px;
+        display: flex;
+        flex-direction: row;
+        justify-items: none;
+        justify-content: none;
+        margin-top: 70px;
+    }
+    .phrase_title{
+    display: flex;
+    flex-direction: column;
+        color: rgb(252, 95, 4);
+        width: 419px;
+        font-family: 'Alike';
+        font-size: 19px;
+        font-weight: 800;  
+     
+        text-align: center;
+    }
+.im_andrei{
+        /* color: #b47404; */
+      color: salmon;
+        margin-bottom: 50px;
+        max-width: 419px;
+        font-family: 'Alike';
+        font-size: 28px;
+        font-weight: 900; 
+    }
+
   }
