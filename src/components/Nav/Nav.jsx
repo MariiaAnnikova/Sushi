@@ -12,6 +12,7 @@ export default function Nav({menuActive, setMenuActive}) {
 <div className={s.nav_logo}><img  src={Logo} alt="Logo" /></div> 
 
 <div className={[s.nav_menu, menuActive ? s.active : ''].join(' ')}>
+
 <Link activeClass="active"
                  to="PhotoParalax" 
                  smooth={true} 
@@ -19,20 +20,20 @@ export default function Nav({menuActive, setMenuActive}) {
            About me
         </Link>
 
-        <Link 
+        {/* <Link 
                  to="Service" 
                  smooth={true} 
                  duration={500}>
            Service
-        </Link>
+        </Link> */}
 
 
-        <Link 
+        {/* <Link 
                  to="Galery" 
                  smooth={true} 
                  duration={500}>
           Galery
-        </Link>
+        </Link> */}
 
 
    

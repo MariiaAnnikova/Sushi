@@ -9,7 +9,7 @@
 .phrase_title{
 display: flex;
 flex-direction: column;
-    color: rgb(252, 95, 4);
+    color: black;
     width: 900px;
     font-family: 'Alike';
     font-size: 36px;
@@ -30,17 +30,19 @@ flex-direction: column;
 .im_andrei{
     /* color: #b47404; */
   color: black;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
     width: 900px;
     font-family: 'Alike';
     font-size: 46px;
     font-weight: 700; 
+    margin-top: 100px;
+    margin-left: 500px;
 }
  .container {
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
-    border:2px solid green;
+   
   }
 
   @media (max-width: 376px){
@@ -56,7 +58,7 @@ flex-direction: column;
     .phrase_title{
     display: flex;
     flex-direction: column;
-        color: rgb(252, 95, 4);
+        color: black(252, 95, 4);
         width: 350px;
         font-family: 'Alike';
         font-size: 19px;
@@ -66,29 +68,32 @@ flex-direction: column;
     }
 .im_andrei{
         /* color: #b47404; */
-      color: salmon;
+      color: black;
         margin-bottom: 50px;
         max-width: 360px;
         font-family: 'Alike';
         font-size: 28px;
         font-weight: 900; 
+        margin-top: 200px;
+        margin-left: 50px;
     }
   }
 
   @media (min-width:377px) and (max-width: 420px){
     .phrase_sushi{
-        width: 419px;
+        width: 410px;
         display: flex;
         flex-direction: row;
         justify-items: none;
         justify-content: none;
         margin-top: 70px;
+        color: black;
     }
     .phrase_title{
     display: flex;
     flex-direction: column;
-        color: rgb(252, 95, 4);
-        width: 419px;
+        color: black(252, 95, 4);
+        width: 410px;
         font-family: 'Alike';
         font-size: 19px;
         font-weight: 800;  
@@ -97,12 +102,14 @@ flex-direction: column;
     }
 .im_andrei{
         /* color: #b47404; */
-      color: salmon;
+        color: black;
         margin-bottom: 50px;
-        max-width: 419px;
+        max-width: 400px;
         font-family: 'Alike';
         font-size: 28px;
         font-weight: 900; 
+        margin-top: 50px;
+        margin-left: 0px;
     }
 
   }

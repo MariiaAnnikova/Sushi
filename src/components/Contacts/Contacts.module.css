@@ -16,7 +16,7 @@
 .icon {
      font-size: 30px;
      margin: 10px;
-     color: rgb(250, 128, 114);
+     color: black(250, 128, 114);
 }
 
 .contacts_header{
@@ -48,12 +48,46 @@
     .icon {
          font-size: 20px;
          margin: 10px;
-         color: rgb(250, 128, 114);
+         color: black(250, 128, 114);
     }
     
     .contacts_header{
         width: 350px;
-        font-size: 18px;
+        font-size: 35px;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:377px) and (max-width: 420px){
+    .container_contacts {
+     
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        gap: 5px;
+        justify-items: center;
+     
+    }
+    
+    .contact {
+        font-size: 30px;
+    }
+    
+    .icon {
+         font-size: 20px;
+         margin: 10px;
+         color: black(250, 128, 114);
+    }
+    
+    .contacts_header{
+        width: 350px;
+        font-size: 35px;
         font-weight: 500;
         margin-left: 10px;
         margin-top: 10px;

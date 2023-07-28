@@ -48,7 +48,7 @@
     .title_events{ 
         font-family: "Alike";
         font-size: 15px;
-     color: salmon;
+     color: black;
         /* color: #b08334; */
         height: 400px;
         margin-top: 0px;
@@ -66,7 +66,7 @@
          font-family:  "Alike";
          font-weight: 200;
          /* color: #b08334; */
-       color: salmon;
+       color: black;
      }
      
      .text {
@@ -85,7 +85,47 @@
          margin-top: 20px;
         padding-top: 15px;
        }
+ }
 
-
-
-   }
+ @media (min-width:377px) and (max-width: 420px){
+    .title_events{ 
+        font-family: "Alike";
+        font-size: 35px;
+     color: black;
+        /* color: #b08334; */
+        height: 400px;
+        margin-top: 0px;
+        width: 400px;
+      
+         position: relative;
+     }
+     .event_logo{
+         width: 400px;
+         padding-top: 50px;
+     /* position: absolute; */
+    
+         /* top:-70px; */
+         font-size: 30px;
+         font-family:  "Alike";
+         font-weight: 200;
+         /* color: #b08334; */
+       color: black;
+     }
+     
+     .text {
+     margin-top: 20px;
+    margin-left: 20px;
+         width: 400px;
+         height: 30px;
+     background-color: #fff;
+         /* box-shadow: 0 0 15px  rgb(250, 128, 114);
+         border-radius: 19px; */
+         align-items: center;
+         text-align: center;
+         font-size: 35px;
+         font-family:  "Alike";
+         font-weight: 300;
+         margin-top: 20px;
+        padding-top: 15px;
+       }
+ }

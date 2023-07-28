@@ -6,6 +6,8 @@ import slider4 from "../../css/slider4.jpg"
 import slider5 from "../../css/slider5.jpg"
 import slider7 from "../../css/slider7.jpg"
 import slider8 from "../../css/slider8.jpg"
+import slider11 from "../../css/slider11.jpeg"
+
 import s from './Carousel.module.css'
 
 export default function Carousel() {
@@ -22,6 +24,7 @@ export default function Carousel() {
 <img src={ slider5} alt="sushi"/>
 <img src={ slider7} alt="sushi"/>
 <img src={ slider8} alt="sushi"/>
+<img src={ slider2} alt="sushi"/>
 
 </div>
 

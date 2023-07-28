@@ -10,6 +10,8 @@ export default function Contacts() {
   return (
     <Element name='Contacts'>
     <div className={s.contacts_header}>Book unforgettable dinner with Chef Andre!  </div>
+
+    
     <div className={s.container_contacts}>
        <div className= {`${s.contact} ${s.tel_contact}`} ><PhoneOutlined  className={s.icon}/> +39 3338415356 </div>
        <div className={`${s.contact} ${s.mail_contacts}`}> <MailOutlined className={s.icon}/> info@chefandre.it </div>

@@ -21,7 +21,7 @@ export default function Footer() {
 <PhoneOutlined />
 
 </div>
-<div className={s.copyright}><p>@ 2023 .All right reserved.</p></div>
+<div className={s.copyright}><p>@ Sushi Chef a Domicilio Andre Filon. 2023.All right reserved.</p></div>
 </footer>
     </div>
     </div>

@@ -18,3 +18,15 @@
     
     }
 }
+
+@media (min-width:377px) and (max-width: 420px){
+    .photo_arr {
+
+
+        margin-top: 0px;
+        margin-left: 10px;
+           columns:1;
+           margin-bottom: 5px;
+    
+    }
+}

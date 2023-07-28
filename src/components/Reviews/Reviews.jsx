@@ -1,17 +1,34 @@
 import React from 'react'
 import s from './Reviews.module.css'
+import stars from './reviews_pic/stars.png'
+import rev_laura from'./reviews_pic/rev_laura.png'
+import rev_lebing from './reviews_pic/rev_lebing.png'
+import rev_ziggy from './reviews_pic/rev_ziggy.png'
+import rev_karima from './reviews_pic/rev_karima.png'
+import { Element } from 'react-scroll'
+
 
 
 export default function Reviews() {
+  
+  
   return (
    
-    <div> <center className={s.review_title}> Reviews of my clients </center>
-    <center className={s.all_reviews}> 
-  
-        <div className={s.review}>I’ve had the pleasure of having sushi made by Andrei a few times and I can say without a doubt that it was the best sushi I’ve ever tasted! Can’t wait for next time. <p>Kamila Antoniani</p></div>
-        <div className={s.review}> It is completly another level of quality and test of Sushi. Trylly unforgettable. Very testy. <p>Mariia Voican </p></div>
-        <div className={s.review}>I’ve had the pleasure of having sushi made by Andrei a few times and I can say without a doubt that it was the best sushi I’ve ever tasted! Can’t wait for next time. <p>Kamila Antoniani</p></div>
-    </center>
-    </div>
+<Element name='Reviews' >
+      {/* <center className={s.review_title}> Reviews of my clients</center> */}
+    <center className={s.stars}><img src={stars} alt='filon andre reviews'></img></center>
+        <div className={s.all_reviews}> 
+   
+        <div className={s.review}><img src={rev_laura} alt='filon andre reviews' ></img></div>
+        <div className={s.review}> <img src={rev_lebing} alt='filon andre reviews' ></img></div>
+       
+       
+        <div className={s.review}><img src={rev_ziggy} alt='filon andre reviews' ></img></div>
+        <div className={s.review}><img src={rev_karima} alt='filon andre reviews' ></img></div>
+</div>
+
+</Element>
+    
+    
   )
 }
