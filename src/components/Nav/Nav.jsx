@@ -3,13 +3,15 @@ import s from "./Nav.module.css"
 import {PlusOutlined} from '@ant-design/icons'
 import Logo from '../../css/Logo.jpeg'
 import { Link } from 'react-scroll'
+import { Link as HashLink } from 'react-router-dom'
+
 
 export default function Nav({menuActive, setMenuActive}) {
   return (
     <div>
     <div className={s.nav_block}>
 
-<div className={s.nav_logo}><img  src={Logo} alt="Logo" /></div> 
+ <div className={s.nav_logo}><img  src={Logo} alt="Logo" /></div> 
 
 <div className={[s.nav_menu, menuActive ? s.active : ''].join(' ')}>
 

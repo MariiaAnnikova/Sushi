@@ -1,34 +1,35 @@
 .about_andrei_title{
-
-    height: 700px;
-    width: 700px;
+  
+    margin-top: 100px;
+    height: 400px;
+    width: 550px;
     display: flex;
     flex-direction: column;
-text-align: left;
-    margin-left: 700px;
-justify-content: space-between;
-margin-top: 200px;
-   line-height: 60px;
+text-align:left;
+    margin-left: 800px;
+   line-height: 40px;
 }
 .about_andrei_title p {
-    font-family: 'Alike';
-    font-size: 30px;
+  
+    font-family: Glacial;
+    font-size: 20px;
     font-weight: 500;
     /* color: #b47404; */
   color: black;
 }
-.wrapper{
+/* .wrapper{
 overflow-y: auto;
     overflow-x: hidden;
     perspective: 5px;
-}
+} */
 
 header{
+
  position: relative;
  display: flex;
- transform-style: preserve-3d;
- z-index: -1;
-
+ /* transform-style: preserve-3d;
+ z-index: -1; */
+margin-bottom: 150px;
 height: 550px;
 }
 
@@ -36,12 +37,23 @@ height: 550px;
 .wrapper img {
   position: absolute;
   object-fit: cover;
-  z-index: -1;
-  transform: translateZ(-10px) scale(2);
-  height: 1100px;
-  width: 1300px;
+  /* z-index: -1;
+  transform: translateZ(-10px) scale(2); */
+  height: 550px;
+  width:650px;
+  border: 1px solid black;
+  border-radius: 19px;
+right: 800px;
+}
 
-right: 1000px;
+.line {
+  width: 900px;
+  margin-left: 280px;
+  margin-bottom: 150px;
+  border-bottom: 1px solid black;
+  justify-content: center;
+  justify-items: center;
+
 }
 
 @media (max-width: 376px){
@@ -58,7 +70,7 @@ right: 1000px;
 }
 .about_andrei_title p {
     display: none;
-    font-family: 'Alike';
+    font-family:  Glacial;
     font-size: 15px;
     font-weight: 500;
     /* color: #b47404; */

@@ -17,6 +17,7 @@ export default function MainPage() {
     <div className={s.MainPage}>
 
        <div className={s.phrase_sushi}> 
+     
   <center className={s.phrase_title}>
   <h3 className={s.phrase_title}> Love and sushi are very similar in a variety of ways; </h3>
   <h3 className={s.phrase_title}> One is that you can never have too much of either.</h3>
@@ -26,12 +27,12 @@ export default function MainPage() {
   </div>
     
    {/* <Carousel /> */}
-<center><h1 className={s.im_andrei}>Hello! I'm Andre Filon.</h1></center>
+{/* <center><h1 className={s.im_andrei}>Hello! I'm Andre Filon.</h1></center> */}
 <PhotoParalax />
-<Events />
+
 <Galery />
 {/* <Serveces /> */}
-
+<Events />
 
 <Contacts />
 <Reviews />

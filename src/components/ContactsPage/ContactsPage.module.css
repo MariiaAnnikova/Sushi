@@ -1,0 +1,44 @@
+.contacts_page_container{
+    margin-top: 200px;
+    justify-content: center;
+    justify-items: center;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 400px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    gap: 30px;
+
+}
+
+.contacts_logo img {
+    height: 200px;
+    width: 200px;
+    
+
+   
+}
+
+.contacts_title{
+    font-size: 20px;
+    font-family: Glacial;
+    width: 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.contacts_info{
+    font-size: 20px;
+    font-family: Glacial;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

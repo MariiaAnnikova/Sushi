@@ -1,28 +1,28 @@
 .nav_block {
+  background-color: #F6EDE4;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
-    height: 30px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(255, 255, 255);
-    /* gap: 50px; */
+ 
     padding-top: 50px;
    cursor: pointer;
     }
     .nav_menu {
-         
+        
           display: flex;
           flex-direction: row;
-          width: 700px;
-        
+          width: 500px;
+        margin-top: 15px;
     justify-content: space-between;
     padding-right: 100px;
-    font-family: 'Alike';
+    font-family:  Glacial;
     font-weight:  600;
-    font-size: 20px;
+    font-size: 17px;
     text-transform: uppercase;
     
     

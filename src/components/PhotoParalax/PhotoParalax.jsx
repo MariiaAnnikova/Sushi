@@ -13,10 +13,10 @@ export default function PhotoParalax() {
    }, [])
   return (
     <Element name='PhotoParalax' className={s.wrapper}>
-
-    <header>
-        <img src={andrei_par} alt={"Andrei_Filon"} className={s.photo_andrei}/>
+<header>
+        <img src={slider11} alt={"Andrei_Filon"} className={s.photo_andrei}/>
         <div className={s.about_andrei_title}>
+        {/* <p>Hello! I'm Andre Filon.</p> */}
         <p>Welcome! </p>
          <p>I'm Andre Filon, a seasoned sushi chef with a passion for crafting exquisite culinary experiences.
           </p> 
@@ -24,7 +24,8 @@ export default function PhotoParalax() {
           <p> Now, I bring my expertise directly to you as a private sushi chef, specializing in creating unforgettable dining experiences for your private events. </p>
         
     </div>
-    </header>
+    </header> 
+    <div className={s.line}></div>
     </Element>
   )
 }
