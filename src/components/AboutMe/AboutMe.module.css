@@ -1,0 +1,33 @@
+.about_me_block{
+    height: 700px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+     margin-top: 200px;
+     
+}
+
+.about_me_pic img{
+    height: 550px;
+  width:550px;
+    object-fit: contain;
+    margin-left: 100px;
+    border:1px solid black;
+    border-radius: 19px;
+}
+
+.about_title {
+  
+   display: flex;
+   flex-direction: column;
+    height: 700px;
+  width: 700px;
+  margin-right: 100px;
+ 
+    font-family: Glacial;
+    font-size: 17px;
+    font-weight: 500;
+   line-height: 40px;
+    
+    
+}
