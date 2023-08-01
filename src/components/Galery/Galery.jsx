@@ -51,7 +51,7 @@ export default function Galery() {
                
     ]
   return (
-    <Element name='Galery' className={s.photo_arr}>
+    <div name='Galery' className={s.photo_arr}>
         {
         photos.map((el) => <GaleryContainer {...el} key={el.id}  />)
         }
@@ -60,6 +60,6 @@ export default function Galery() {
 
 
 
-    </Element>
+    </div>
   )
 }

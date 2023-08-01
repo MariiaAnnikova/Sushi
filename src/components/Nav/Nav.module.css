@@ -43,8 +43,8 @@
     .nav_reviews{
       height: 21px;
       width: 100px;
-      border:1px solid black;
-      border-radius: 19px;
+      /* border:1px solid black;
+      border-radius: 19px; */
       justify-content: center;
       justify-items: center;
     }
@@ -53,12 +53,9 @@
       margin-left: 18px;
      
     }
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
-    and (-webkit-min-device-pixel-ratio: 2) { 
+  
 
-    /* @media(max-width: 376px){ */
+    @media(max-width: 376px){
     .icon_plus{
         cursor: pointer;
         width: 60px;
@@ -66,7 +63,7 @@
         font-size: 50px;
         display: flex;
         cursor: pointer;
-        margin-left: 300px;
+        margin-left: 330px;
         margin-top: -23px;
     }
 

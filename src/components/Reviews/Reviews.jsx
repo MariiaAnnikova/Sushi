@@ -14,8 +14,8 @@ export default function Reviews() {
   
   return (
    
-<Element name='Reviews' >
-      {/* <center className={s.review_title}> Reviews of my clients</center> */}
+<div className={s.reviews} >
+     
     <center className={s.stars}><img src={stars} alt='filon andre reviews'></img></center>
         <div className={s.all_reviews}> 
    
@@ -27,7 +27,7 @@ export default function Reviews() {
         <div className={s.review}><img src={rev_karima} alt='filon andre reviews' ></img></div>
 </div>
 
-</Element>
+</div>
     
     
   )

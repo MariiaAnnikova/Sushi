@@ -1,8 +1,10 @@
 .photo_container img {
         border: 1px solid black;
         border-radius: 19px;
-        max-width: 95%;
+     width: 95%;
+
         margin-top: 10px;
+        object-fit: contain;
        /* box-shadow:  10px 5px 5px lightgray; */
     }
 
@@ -17,7 +19,7 @@
                 border-radius: 19px;
                 max-width: 97%;
                 margin-top: 1px;
-                width: 350px;
+           
                /* box-shadow:  10px 5px 5px lightgray; */
             }
  }
@@ -25,7 +27,7 @@
  @media (min-width:377px) and (max-width: 420px){
    .photo_container img {
  
-   
+  
       max-width: 97%;
       margin-top: 1px;
       width: 400px;

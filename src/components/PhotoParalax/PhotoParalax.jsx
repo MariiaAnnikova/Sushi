@@ -8,11 +8,11 @@ import { Element } from 'react-scroll'
 import slider11 from "../../css/slider11.jpeg"
 
 export default function PhotoParalax() {
-  useEffect(()=> {
-    AOS.init({duration:8000});
-   }, [])
+  // useEffect(()=> {
+  //   AOS.init({duration:8000;
+  //  }, [])
   return (
-    <Element name='PhotoParalax' className={s.wrapper}>
+    <div className={s.wrapper}>
 <header>
         <img src={slider11} alt={"Andrei_Filon"} className={s.photo_andrei}/>
         <div className={s.about_andrei_title}>
@@ -26,6 +26,6 @@ export default function PhotoParalax() {
     </div>
     </header> 
     <div className={s.line}></div>
-    </Element>
+    </div>
   )
 }

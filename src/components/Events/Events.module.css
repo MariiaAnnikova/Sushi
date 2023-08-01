@@ -1,89 +1,32 @@
-.title_events{
-    font-family: "Alike";
-    font-size: 25px;
- color: #000;
-    /* color: #b08334; */
-    height: 200px;
-    margin-top: 100px;
-
-     position: relative;
- }
- .event_logo{
-     width: 100%;
-     padding-top: 50px;
- /* position: absolute; */
-
-     /* top:-70px; */
-     font-size: 60px;
-     font-family:  "Alike";
-     font-weight: 200;
-     /* color: #b08334; */
-   color: #000000;
- }
- 
  .text {
-
-     /* left: 35%; */
-     line-height: 50px;
-     margin-top: 20px;
-
+   line-height: 50px;
      width: 1000px;
-     height: 50px;
-
-     /* box-shadow: 0 0 25px  rgb(250, 128, 114); */
-     /* border-bottom: 1px solid black; */
- 
+     height: 100px;
      align-items: center;
      text-align: center;
      font-size: 25px;
      font-family:   Glacial;
      font-weight: 300;
-     margin-top: 10px;
-     margin-bottom: 20px;
+     margin-top: 100px;
+     margin-bottom: 100px;
     padding-top: 15px;
    }
 
    @media (max-width: 376px){
-
-    .title_events{ 
-        font-family: "Alike";
-        font-size: 15px;
-     color: black;
-        /* color: #b08334; */
-        height: 400px;
-        margin-top: 0px;
-        width: 350px;
-      
-         position: relative;
-     }
-     .event_logo{
-         width: 360px;
-         padding-top: 50px;
-     /* position: absolute; */
-    
-         /* top:-70px; */
-         font-size: 30px;
-         font-family:  "Alike";
-         font-weight: 200;
-         /* color: #b08334; */
-       color: black;
-     }
-     
+   
      .text {
-     margin-top: 20px;
-    margin-left: 20px;
-         width: 300px;
-         height: 30px;
-     background-color: #fff;
-         /* box-shadow: 0 0 15px  rgb(250, 128, 114);
-         border-radius: 19px; */
+  
+    margin-left: 40px;
+         width: 350px;
+         height: 250px;
+
          align-items: center;
-         text-align: center;
-         font-size: 15px;
-         font-family:  "Alike";
-         font-weight: 300;
-         margin-top: 20px;
-        padding-top: 15px;
+         text-align:justify;
+         font-size: 20px;
+         font-family:  Glacial;
+         font-weight: 600;
+         margin-bottom: 50px;
+        padding-top: 0px;
        }
  }
 
