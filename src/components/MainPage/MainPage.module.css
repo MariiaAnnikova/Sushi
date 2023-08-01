@@ -24,35 +24,8 @@ flex-direction: column;
     font-weight: 100;  
     
 }
-.phrase_left{
-    color: gray;
-    margin-top: 50px;
-    font-size: 40px;
-}
-.phrase_right{
-    color: gray;
-    font-size: 40px;
-    margin-top: 40px;
-   
-}
 
-.im_andrei{
-    /* color: #b47404; */
-  color: black;
-    margin-bottom: 10px;
-    width: 900px;
-    font-family: 'Alike';
-    font-size: 46px;
-    font-weight: 500; 
-    margin-top: 100px;
-  margin-bottom: 50px;
-}
- .container {
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 800px;
-   
-  }
+
 
   @media (max-width: 376px){
     
@@ -85,35 +58,30 @@ flex-direction: column;
 
   @media (min-width:377px) and (max-width: 420px){
     .phrase_sushi{
-        width: 410px;
-        display: flex;
-        flex-direction: row;
-        justify-items: none;
-        justify-content: none;
-        margin-top: 70px;
-        color: black;
-    }
-    .phrase_title{
-    display: flex;
-    flex-direction: column;
-        color: black(252, 95, 4);
-        width: 410px;
-        font-family: 'Alike';
-        font-size: 19px;
-        font-weight: 800;  
+      display: flex;
+      flex-direction: row;
+      justify-items: center;
+      justify-content: center;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      border-bottom: 1px solid rgb(11, 11, 11); 
+      width: 400px;
+      margin-left: 10px;
+      border-top: 1px solid rgb(11, 11, 11);
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  .phrase_title{
+  display: flex;
+  flex-direction: column;
+      color: black;
+      width: 400px;
+      font-family:  Glacial;
+      font-size: 25px;
+      line-height: 50px;
+      font-weight: 100;  
      
-        text-align: center;
-    }
-.im_andrei{
-        /* color: #b47404; */
-        color: black;
-        margin-bottom: 50px;
-        max-width: 400px;
-        font-family: 'Alike';
-        font-size: 28px;
-        font-weight: 900; 
-        margin-top: 50px;
-        margin-left: 0px;
-    }
+  }
+
 
   }

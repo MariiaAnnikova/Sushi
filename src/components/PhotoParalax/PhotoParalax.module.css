@@ -44,6 +44,7 @@ height: 550px;
   border: 1px solid black;
   border-radius: 19px;
   margin-left: 100px;
+  object-fit: contain;
 
 }
 
@@ -77,6 +78,7 @@ text-align:left;
     font-weight: 500;
     /* color: #b47404; */
   color: black;
+  text-align: justify;
 }
 .wrapper{
   display: flex;
@@ -111,8 +113,8 @@ right: 0px;
 }
 
 .line {
-  width: 900px;
-  margin-left: 280px;
+  width: 350px;
+  margin-left: 0px;
   margin-bottom: 150px;
   border-bottom: 1px solid black;
   justify-content: center;
@@ -124,53 +126,68 @@ right: 0px;
 @media (min-width:377px) and (max-width: 420px){
 
   .about_andrei_title{
- 
-    height: 400px;
+  
+    margin-top: 400px;
+    height: 500px;
     width: 400px;
+
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    margin-left: 0px;
-  margin-top: 00px;
-   
+text-align:left;
+    margin-left: -350px;
+   line-height: 40px;
 }
 .about_andrei_title p {
-    display: none;
-    font-family: 'Alike';
-    font-size: 15px;
+  
+    font-family: Glacial;
+    font-size: 20px;
     font-weight: 500;
     /* color: #b47404; */
-  color: rgb(11, 11, 11);
+  color: black;
+  text-align: justify;
 }
 .wrapper{
- 
-    height: 500px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    perspective: 20px;
+display: flex;
+flex-direction: column;
+
+width: 400px;
+  height: 900px;
 }
 
 header{
 
- position: relative;
+
  display: flex;
+ /* transform-style: preserve-3d;
+ z-index: -1; */
+margin-bottom: 150px;
+height: 550px;
 
- height: 10%;
- transform-style: preserve-3d;
- z-index: -1;
 }
+
+
 .wrapper img {
-  position: absolute;
+object-fit: contain;
   object-fit: contain;
-  z-index: -1;
-  transform: translateZ(-10px) scale(2);
-  height: 400px;
-  width: 400px;
+  /* z-index: -1;
+  transform: translateZ(-10px) scale(2); */
+  height: 350px;
+  width:400px;
+  border: 1px solid black;
+  border-radius: 19px;
+  margin-left: 0px;
+  right: 0px;
 
-right: -50px;
 }
 
+.line {
+  width: 400px;
+  margin-left: 0px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid black;
+  justify-content: center;
+  justify-items: center;
 
-
-
+}
 }
