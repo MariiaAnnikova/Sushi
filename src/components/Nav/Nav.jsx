@@ -2,11 +2,17 @@ import React from 'react'
 import s from "./Nav.module.css"
 import {PlusOutlined} from '@ant-design/icons'
 import Logo from '../../css/Logo.jpeg'
-
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom'
 
 
 export default function Nav({menuActive, setMenuActive}) {
+  const { t, i18n } = useTranslation();
+
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
   return (
     <div>
     <div className={s.nav_block}>
@@ -16,18 +22,17 @@ export default function Nav({menuActive, setMenuActive}) {
 <div className={[s.nav_menu, menuActive ? s.active : ''].join(' ')}>
 
 <Link to='about_me'>
-           About me
+           <p>{t("info")}</p>
         </Link>
 
        <Link to='Contact'  className={s.nav_contacts}>
-                 
-                
-          Contacts
+       <p>{t("cont")}</p>
         </Link>
 
         <div className={s.nav_reviews} 
                >
-        <p>IT / ENG </p>
+        <button onClick={() => changeLanguage('it')}>IT</button>
+        <button onClick={() => changeLanguage('en')}>ENG</button>
         </div>  
 
       </div>    

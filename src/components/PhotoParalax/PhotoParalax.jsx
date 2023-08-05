@@ -6,8 +6,17 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { Element } from 'react-scroll'
 import slider11 from "../../css/slider11.jpeg"
+import { useTranslation } from 'react-i18next';
 
 export default function PhotoParalax() {
+
+  const { t, i18n } = useTranslation();
+
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
+
   // useEffect(()=> {
   //   AOS.init({duration:8000;
   //  }, [])
@@ -16,14 +25,16 @@ export default function PhotoParalax() {
 <header>
         <img src={slider11} alt={"Andrei_Filon"} className={s.photo_andrei}/>
         <div className={s.about_andrei_title}>
-        {/* <p>Hello! I'm Andre Filon.</p> */}
-        <p>Welcome! </p>
-         <p>I'm Andre Filon, a seasoned sushi chef with a passion for crafting exquisite culinary experiences.
+       
+        <p>{t("andrei_one")}</p>
+         <p>{t("andrei_two")}
           </p> 
-          <p>With over a decade of experience in the art of sushi, I have honed my skills working in renowned establishments in Romania and Italy.</p>
-          <p> Now, I bring my expertise directly to you as a private sushi chef, specializing in creating unforgettable dining experiences for your private events. </p>
+          <p>{t("andrei_tre")}</p>
+          <p> {t("andrei_four")} </p>
         
     </div>
+   
+
     </header> 
     <div className={s.line}></div>
     </div>

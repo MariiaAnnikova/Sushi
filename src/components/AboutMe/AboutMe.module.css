@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
      margin-top: 200px;
+     margin-bottom: 100px;
      
 }
 
@@ -23,7 +24,7 @@
     height: 700px;
   width: 700px;
   margin-right: 100px;
- 
+ margin-bottom: 100px;
     font-family: Glacial;
     font-size: 17px;
     font-weight: 500;

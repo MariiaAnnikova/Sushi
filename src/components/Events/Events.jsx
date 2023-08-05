@@ -2,11 +2,19 @@ import React, { useEffect} from 'react'
 // import AOS from 'aos'
 // import 'aos/dist/aos.css'
 import s from './Events.module.css'
+import { useTranslation } from 'react-i18next';
 
 export default function Events() {
     // useEffect(()=> {
     //     AOS.init({duration:8000});
     //    }, [])
+
+    const { t, i18n } = useTranslation();
+
+
+    const changeLanguage = (language) => {
+      i18n.changeLanguage(language);
+    };
 
   return (
     <center className={s.title_events}>
@@ -26,9 +34,7 @@ export default function Events() {
   <div className={s.text}>Indoor / Outdoor Buffet  </div> */}
 
 
-<center className={s.text} > As a private chef, I offer my service for private parties, anniversaries, birthdays, family dinners, etc.
-
-Please see my contacts for more details and availability.</center>
+<center className={s.text} > {t("event")}</center>
 </center> 
 
   )

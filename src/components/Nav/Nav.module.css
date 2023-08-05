@@ -42,11 +42,16 @@
 
     .nav_reviews{
       height: 21px;
-      width: 100px;
+      width: 150px;
       /* border:1px solid black;
       border-radius: 19px; */
       justify-content: center;
       justify-items: center;
+    }
+    .nav_reviews button{
+      width: 40px;
+      margin-left: 15px;
+    
     }
 
     .nav_reviews p {

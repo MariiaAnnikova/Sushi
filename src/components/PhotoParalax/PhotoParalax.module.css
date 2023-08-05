@@ -1,6 +1,6 @@
 .about_andrei_title{
   
-    margin-top: 100px;
+  
     height: 400px;
     width: 550px;
     display: flex;
@@ -12,7 +12,7 @@ text-align:left;
 .about_andrei_title p {
   
     font-family: Glacial;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     /* color: #b47404; */
   color: black;
@@ -55,6 +55,18 @@ height: 550px;
   border-bottom: 1px solid black;
   justify-content: center;
   justify-items: center;
+
+}
+
+.about_andrei_title_italian{
+  margin-top: 100px;
+  height: 400px;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+text-align:left;
+  margin-left: 100px;
+ line-height: 40px;
 
 }
 
