@@ -68,7 +68,8 @@
         font-size: 50px;
         display: flex;
         cursor: pointer;
-        margin-left: 330px;
+        margin-left: 300px;
+      
         margin-top: -23px;
     }
 
@@ -116,7 +117,17 @@
            
      transform: translateY(-999%);
     }
-}
+    .nav_reviews button{
+      width: 80px;
+      margin-left: 0px;
+    
+    }
+  .nav_reviews{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-top: 10px;
+  }}
 
 @media (min-width:377px) and (max-width: 420px){
     

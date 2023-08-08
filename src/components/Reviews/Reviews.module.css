@@ -46,7 +46,7 @@ height: 300px;
    
         columns: 1;
    
-        margin-left: 40px;
+        margin-left: 0px;
          
      }
      
@@ -86,7 +86,7 @@ height: 300px;
          object-fit: contain;
              width: 350px;
              height: 200px; 
-             margin-left: 40px;
+             margin-left: 0px;
      }
     }
 

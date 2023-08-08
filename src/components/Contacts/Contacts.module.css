@@ -28,12 +28,12 @@
 
 @media (max-width: 376px){
     .container_contacts {
-        width: 100%;
+        width: 370px;
  
         justify-items: center;
         justify-content: center;
         margin-top: 0px;
-        margin-left: 35px;
+        margin-left: 0px;
     }
     
     .container_contacts button{

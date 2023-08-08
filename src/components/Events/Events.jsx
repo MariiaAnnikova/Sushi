@@ -17,25 +17,12 @@ export default function Events() {
     };
 
   return (
-    <center className={s.title_events}>
-  {/* <p className={s.event_logo}>Chef service is for:</p> */}
-
-   {/* <center className={`${s.text} ${s.text1}`} data-aos="fade-dow">Private Party / Feste private</center>
-  <div className={`${s.text} ${s.text3}`} data-aos="fade-dow">Special ocation / Ocasione speciale</div>
-  <div className={`${s.text} ${s.text4}`} data-aos="fade-dow">Birthdays / Compleanni</div>
-  <div className={`${s.text} ${s.text5}`} data-aos="fade-dow">Indoor / Outdoor Buffet  </div>
+  
+  
 
 
-</center>  */}
+<div className={s.text} > {t("event")}</div>
 
-{/* <center className={s.text} >Private Party / Feste private</center>
-  <div className={s.text}>Special ocation / Ocasione speciale</div>
-  <div className={s.text} >Birthdays / Compleanni</div>
-  <div className={s.text}>Indoor / Outdoor Buffet  </div> */}
-
-
-<center className={s.text} > {t("event")}</center>
-</center> 
 
   )
 }

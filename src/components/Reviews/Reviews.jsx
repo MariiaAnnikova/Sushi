@@ -16,7 +16,7 @@ export default function Reviews() {
    
 <div className={s.reviews} >
      
-    <center className={s.stars}><img src={stars} alt='filon andre reviews'></img></center>
+    <div className={s.stars}><img src={stars} alt='filon andre reviews'></img></div>
         <div className={s.all_reviews}> 
    
         <div className={s.review}><img src={rev_laura} alt='filon andre reviews' ></img></div>

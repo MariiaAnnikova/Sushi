@@ -73,13 +73,13 @@ text-align:left;
 @media (max-width: 376px){
   .about_andrei_title{
 
-    margin-top: 400px;
+    margin-top: 200px;
     height: 500px;
     width: 350px;
     display: flex;
     flex-direction: column;
 text-align:left;
-    margin-left: 34px;
+    margin-left: 0px;
    line-height: 40px;
   
 }
