@@ -32,3 +32,41 @@
     
     
 }
+
+@media (max-width: 376px){
+  .about_me_block{
+    height: 700px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     margin-top: 70px;
+     margin-bottom: 350px;
+     
+}
+
+.about_me_pic img{
+    height: 250px;
+  width:350px;
+    object-fit: contain;
+    margin-left: 0px;
+    border:1px solid black;
+    border-radius: 19px;
+}
+
+.about_title {
+ 
+   display: flex;
+   flex-direction: column;
+    height: 700px;
+  width: 370px;
+  margin-right: 100px;
+ margin-bottom: 0px;
+    font-family: Glacial;
+    font-size: 17px;
+    font-weight: 500;
+   line-height: 40px;
+    
+    
+}
+}

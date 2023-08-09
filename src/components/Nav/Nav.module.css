@@ -127,9 +127,10 @@
    flex-direction: column;
    gap: 10px;
    margin-top: 10px;
-  }}
+  }
+}
 
-@media (min-width:377px) and (max-width: 420px){
+@media (min-width:377px) and (max-width: 421px){
     
     .icon_plus{
         cursor: pointer;
@@ -185,5 +186,18 @@
            .nav_menu {
            
      transform: translateY(-999%);
+    }
+
+    .nav_reviews{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 15px;
+     }
+
+     .nav_reviews button{
+      width: 80px;
+      margin-left: 0px;
+    
     }
 }
