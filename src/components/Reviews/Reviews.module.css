@@ -90,7 +90,7 @@ height: 300px;
      }
     }
 
-    @media (min-width:377px) and (max-width: 420px){
+    @media (min-width:377px) and (max-width: 421px){
         .all_reviews{
    
             columns: 1;
