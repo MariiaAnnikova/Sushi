@@ -27,9 +27,9 @@ export default function AboutMe() {
           <p> {t("andrei_tre")} </p>
           <p> {t("andrei_tre")} </p>
           <p>{t("andrei_four")} </p>
-          <p>{t( "about_andrei_five")} </p>
+          {/* <p>{t( "about_andrei_five")} </p> */}
           <p>{t( "about_andrei_six")} </p>
-          <p>{t( "about_andrei_seven")} </p>
+          {/* <p>{t( "about_andrei_seven")} </p> */}
           </div>
     </div>
   )
