@@ -85,25 +85,24 @@
 
 .about_me_pic img{
     height: 250px;
-  width:420px;
+  width:300px;
     object-fit: contain;
-    margin-left: 0px;
+    margin-left: 35px;
     border:1px solid black;
     border-radius: 19px;
 }
 
 .about_title {
- 
    display: flex;
    flex-direction: column;
     height: 700px;
-  width: 420px;
-  margin-right: 100px;
+  width: 400px;
+  margin-right: 0px;
  margin-bottom: 0px;
     font-family: Glacial;
     font-size: 17px;
     font-weight: 500;
-   line-height: 40px;
+   line-height: 30px;
     
     
 }
