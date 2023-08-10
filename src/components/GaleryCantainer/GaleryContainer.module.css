@@ -17,14 +17,14 @@
         .photo_container img {
                 border: 1px solid black;
                 border-radius: 19px;
-                max-width: 97%;
+                max-width: 96%;
                 margin-top: 1px;
            
                /* box-shadow:  10px 5px 5px lightgray; */
             }
  }
 
- @media (min-width:377px) and (max-width: 420px){
+ @media (min-width:377px) and (max-width: 421px){
    .photo_container img {
  
       border: 1px solid black;

@@ -56,7 +56,7 @@
 @media (min-width:377px) and (max-width: 421px){
     .container_contacts {
         width: 100%;
-     
+     margin-left: 0px;
         justify-items: center;
         justify-content: center;
         margin-top: 10px;

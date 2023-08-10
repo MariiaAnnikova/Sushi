@@ -72,9 +72,14 @@
       
         margin-top: -23px;
     }
-
+  
+    .nav_menu a {
+      text-decoration: none;
+      color: 	black;
+     }
     
      .nav_menu.active {
+
                  transform: translateY(0%);
                  display: flex;
                  flex-direction: column;
@@ -87,6 +92,7 @@
            margin-right: 100px;
            cursor: pointer;
          width: 100px;
+         height: 50px;
        
           }
               
@@ -99,6 +105,7 @@
              }
               
              .nav_block {
+              
                      display: flex;
                      flex-direction: row;
                      justify-content: space-between;
@@ -108,25 +115,20 @@
                      padding: 0px;
                      width: 375px;
                    background-color: transparent;
-                   position: sticky;
-                
-                  
-             }
+                   position: sticky; }
           
            .nav_menu {
-           
-     transform: translateY(-999%);
+          transform: translateY(-999%);
     }
     .nav_reviews button{
       width: 80px;
       margin-left: 0px;
-    
     }
   .nav_reviews{
    display: flex;
    flex-direction: column;
    gap: 10px;
-   margin-top: 10px;
+   margin-top: 20px;
   }
 }
 

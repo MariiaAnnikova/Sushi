@@ -11,31 +11,10 @@ margin-top: 200px;
   }
 
   @media (min-width:377px) and (max-width: 420px){
-    .phrase_sushi{
-      display: flex;
-      flex-direction: row;
-      justify-items: center;
-      justify-content: center;
-      margin-top: 100px;
-      margin-bottom: 100px;
-      border-bottom: 1px solid rgb(11, 11, 11); 
-      width: 400px;
-      margin-left: 10px;
-      border-top: 1px solid rgb(11, 11, 11);
-      padding-top: 15px;
-      padding-bottom: 15px;
-  }
-  .phrase_title{
-  display: flex;
-  flex-direction: column;
-      color: black;
-      width: 400px;
-      font-family:  Glacial;
-      font-size: 25px;
-      line-height: 50px;
-      font-weight: 100;  
-     
-  }
+    .mainPage {
+      margin-top: 50px;
+      }
+      
 
 
   }

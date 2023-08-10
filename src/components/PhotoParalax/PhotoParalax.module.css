@@ -72,14 +72,14 @@ text-align:left;
 
 @media (max-width: 376px){
   .about_andrei_title{
-
-    margin-top: 200px;
+border: 1px solid red;
+    margin-top: 380px;
     height: 500px;
     width: 350px;
     display: flex;
     flex-direction: column;
-text-align:left;
-    margin-left: 0px;
+text-align:justify;
+    margin-left: 10px;
    line-height: 40px;
   
 }
@@ -139,14 +139,14 @@ right: 0px;
 
   .about_andrei_title{
   
-    margin-top: 400px;
-    height: 500px;
+    margin-top: 420px;
+    height: 350px;
     width: 400px;
 
     display: flex;
     flex-direction: column;
 text-align:left;
-    margin-left: -350px;
+    margin-left: -380px;
    line-height: 40px;
 }
 .about_andrei_title p {
@@ -183,11 +183,11 @@ object-fit: contain;
   object-fit: contain;
   /* z-index: -1;
   transform: translateZ(-10px) scale(2); */
-  height: 350px;
+  height: 400px;
   width:400px;
   border: 1px solid black;
   border-radius: 19px;
-  margin-left: 0px;
+  margin-left: 10px;
   right: 0px;
 
 }

@@ -18,7 +18,7 @@
 }
 
 
-.phrase_title_Italian{ 
+.phrase_title_English{ 
   
 display: flex;
 flex-direction: column;
@@ -44,8 +44,8 @@ flex-direction: column;
         font-weight: 100; 
         margin-bottom: 50px;
         border-bottom: 1px solid rgb(11, 11, 11); 
-        width: 375px;
-        margin-left: 0px;
+        width: 320px;
+        margin-left: 20px;
         border-top: 1px solid rgb(11, 11, 11);
         padding-top: 15px;
         padding-bottom: 15px;
@@ -57,12 +57,12 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
         color: black;
-        width: 375px;
+        width: 320px;
         font-family:  Glacial;
         font-size: 25px;
         line-height: 50px;
         font-weight: 100;  
-        
+        margin-left: 0px;
     }
 }
 
@@ -79,12 +79,25 @@ flex-direction: column;
         font-weight: 100; 
         margin-bottom: 50px;
         border-bottom: 1px solid rgb(11, 11, 11); 
-        width: 400px;
-        margin-left: 0px;
+        width: 380px;
+       margin-left: 0px;
         border-top: 1px solid rgb(11, 11, 11);
         padding-top: 15px;
         padding-bottom: 15px;
     }
     
+    
+    .phrase_title_English{ 
+      
+    display: flex;
+    flex-direction: column;
+        color: black;
+        width: 380px;
+        font-family:  Glacial;
+        font-size: 15px;
+        line-height: 50px;
+        font-weight: 100;  
+        
+    }
 }
 

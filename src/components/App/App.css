@@ -33,9 +33,9 @@ body {
   max-width: 375px;}
 }
 
-@media (min-width:377px) and (max-width: 420px){
+@media (min-width:377px) and (max-width: 421px){
     
   body {
-    max-width: 419px;}
+    max-width: 420px;}
   
   }

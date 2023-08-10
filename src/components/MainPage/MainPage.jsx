@@ -18,14 +18,6 @@ export default function MainPage() {
   return (
     <div className={s.mainPage}>
 <PhraseSushi />
-{/* <center className={`${s.phrase_title} ${s[`phrase_title_${theme}`]}`}>
-  <h3 className={s.phrase_title}> Love and sushi are very similar in a variety of ways; </h3>
-  <h3 className={s.phrase_title}> One is that you can never have too much of either.</h3>
-</center> */}
-  
-  
-    
-
 <PhotoParalax />
 
 <Galery />

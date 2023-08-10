@@ -36,7 +36,7 @@ export default function CookiesBanner({banner}) {
   expires={250}
 
  >
-'We do not use any cookies on our website, but We still have Cookies Policy to follow the all regulation.   By clicking “Accept All”, you consent that you agree and inform about it.  Also you can visit  <Link to='privacy' style={{ color: "#FFD95A" }}> 'Privacy Policy' </Link> to read in ditails all information.
+ Utilizziamo i cookie per essere sicuri che tu possa avere la migliore esperienza sul nostro sito. Se continui ad utilizzare questo sito noi assumiamo che tu ne sia felice. <Link to='privacy' style={{ color: "#FFD95A" }}> 'Privacy Policy' </Link> to read in ditails all information.
   <span style={{ fontSize: "14px" }}></span>
 </CookieConsent>
 
