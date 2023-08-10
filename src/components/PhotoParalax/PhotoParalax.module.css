@@ -1,8 +1,8 @@
 .about_andrei_title{
   
   
-    height: 400px;
-    width: 550px;
+    height: 500px;
+    width: 600px;
     display: flex;
     flex-direction: column;
 text-align:left;
@@ -39,7 +39,7 @@ height: 550px;
   object-fit: contain;
   /* z-index: -1;
   transform: translateZ(-10px) scale(2); */
-  height: 550px;
+  height: 650px;
   width:650px;
   border: 1px solid black;
   border-radius: 19px;

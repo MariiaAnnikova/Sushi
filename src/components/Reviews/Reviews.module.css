@@ -37,9 +37,9 @@ height: 300px;
     margin: 50px 0px 0px 0px;
     /* border: 1px solid black; */
     object-fit: contain;
-        width: 350px;
+        width: 400px;
         height: 200px; 
-
+margin-left: 550px;
 }
 @media (max-width: 376px){
     .all_reviews{
