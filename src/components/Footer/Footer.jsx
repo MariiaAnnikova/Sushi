@@ -18,7 +18,7 @@ export default function Footer() {
 
 <a href="mailto:info@chefandre.com"><MailOutlined /></a>
 <a href='https://instagram.com/andrefilon'><InstagramOutlined /></a>
-<PhoneOutlined />
+<a href='https://wa.me/39333845356'><PhoneOutlined /></a>
 
 </div>
 <div className={s.copyright}><p>@ Sushi Chef a Domicilio Andre Filon. 2023.All right reserved.</p></div>

@@ -1,15 +1,16 @@
 .contacts_page_container{
-    margin-top: 200px;
+    margin-top: 300px;
     justify-content: center;
     justify-items: center;
-    width: 700px;
-    height: 300px;
+    width: 600px;
+    height: 200px;
     display: flex;
     border: 2px solid black;
     border-radius: 25px;
-    margin-left: 400px;
-    padding-top: 100px;
-    margin-bottom: 100px;
+    margin-left: 450px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 150px;
     gap: 30px;
 
 }
@@ -22,7 +23,7 @@
    
 }
 
-.contacts_title{
+.contacts_title {
     font-size: 20px;
     font-family: Glacial;
     width: 100px;
@@ -30,6 +31,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
     
 }
 
@@ -41,6 +43,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  
+}
+
+.contacts_info button{
+    height: 40px;
+    width: 300px;
+    border: 1px solid  #f8ecd8;;
+    background-color:  #f8ecd8;;
+    border-radius: 19px;
+    box-shadow: 0 0 15px  #cd8f25;
+
 }
 
 @media (max-width: 376px){
