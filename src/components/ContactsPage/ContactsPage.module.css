@@ -59,7 +59,7 @@
 @media (max-width: 376px){
     .contacts_page_container{
       
-        margin-top: 50px;
+        margin-top: 100px;
         justify-content: center;
         justify-items: center;
         width: 350px;
@@ -103,7 +103,17 @@
         flex-direction: column;
         justify-content: space-between;
        
-    }}
+    }
+    .contacts_info button{
+        height: 40px;
+        width: 200px;
+        border: 1px solid  #f8ecd8;;
+        background-color:  #f8ecd8;;
+        border-radius: 19px;
+        box-shadow: 0 0 15px  #cd8f25;
+    
+    }
+}
 
     @media (min-width:377px) and (max-width: 421px){
         .contacts_page_container{
@@ -153,4 +163,14 @@
             justify-content: space-between;
            
         } 
+
+        .contacts_info button{
+            height: 40px;
+            width: 200px;
+            border: 1px solid  #f8ecd8;;
+            background-color:  #f8ecd8;;
+            border-radius: 19px;
+            box-shadow: 0 0 15px  #cd8f25;
+        
+        }
     }
