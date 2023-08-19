@@ -17,7 +17,7 @@ export default function ContactsPage() {
         
         </div>
         <div className={s.contacts_info}>
-            <button>+39 33384 5356</button>
+            <button>+39 333841 5356</button>
             <button>info@chefandre.it</button>
             {/* <p>chefandre.it</p> */}
             <button>@andrefilon</button>
